@@ -97,8 +97,8 @@ task usercontrol()
 
 	while (true)
 	{
-		motor[DriveRight] = vexRT[Ch2];
-		motor[DriveLeft] = vexRT[Ch3];
+		motor[DriveRight] = -vexRT[Ch3];
+		motor[DriveLeft] = -vexRT[Ch2];
 
 		if(vexRT[Btn5U] == 1)
 		{
